@@ -1,0 +1,11 @@
+cron_run:
+    path:       /cron
+    controller: Fontai\Bundle\CronBundle\Controller\CronController::run
+    methods:    [GET]
+
+cron_task:
+    path:       /cron/{id}
+    controller: Fontai\Bundle\CronBundle\Controller\CronController::task
+    methods:    [GET]
+    requirements:
+        id: '[0-9]+'

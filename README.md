@@ -1,1 +1,2 @@
-# artplus-fontai-cron-bundle
+CronBundle
+==========

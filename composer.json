@@ -1,0 +1,22 @@
+{
+    "name": "fontai/cron-bundle",
+    "type": "symfony-bundle",
+    "description": "Fontai CronBundle",
+    "authors": [
+        {
+            "name": "Lumír Toman",
+            "email": "toman@websource.cz"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "fontai/generator-bundle": "*"
+    },
+    "autoload": {
+        "psr-4": { "Fontai\\Bundle\\CronBundle\\": "" },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    },
+    "minimum-stability": "dev"
+}

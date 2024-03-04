@@ -1,0 +1,8 @@
+services:
+    _defaults:
+        public: false
+        autowire: true
+
+    Fontai\Bundle\CronBundle\Controller\:
+        resource: '../../Controller'
+        tags: ['controller.service_arguments']
